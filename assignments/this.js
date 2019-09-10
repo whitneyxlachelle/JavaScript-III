@@ -1,19 +1,21 @@
 /* The for principles of "this";
  * in your own words. explain the four principle for the "this" keyword below.
  *
- * 1.
- * 2.
- * 3.
- * 4.
+ * 1. ???
+ * 2. Implicit binding ---'This' is what's left of the period when the function is called.
+ * 3. New binding --- The 'new' keyword creates a new object, and 'this' points to it.
+ * 4. Explicit binding ---'Call' and 'Apply' can be used to invoke a function with a value for 'this'. And 'bind' is used to create a new function that’s bound to a 'this' value
  *
  * write out a code example of each explanation above
  */
 
 // Principle 1
+
+// ???? Research
 // console.log(this);
 
 // function week(Monday) {
-//   "use strict";
+//
 //   console.log(this);
 //   return `Today is ${Monday}.`;
 // }
@@ -32,7 +34,8 @@
 //   }
 // };
 // console.log(student.school());
-// Principle 3
+
+//Principle 3
 
 // code example for New Binding
 
